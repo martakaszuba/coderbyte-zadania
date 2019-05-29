@@ -8,7 +8,6 @@ chunkArray([0, 1, 2, 3, 4, 5], 4) => [[0, 1, 2, 3], [4, 5]].
 */
 
 function chunkArray(arr,num){
-
     var newarr = [];
     for (var i=0; i<arr.length; i+=num){
         newarr.push(arr.slice(i,i+num));
